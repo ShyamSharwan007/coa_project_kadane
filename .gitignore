@@ -1,0 +1,9 @@
+# Simulation artifacts (regeneratable via iverilog)
+sim_executable
+*.vcd
+*.vvp
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
