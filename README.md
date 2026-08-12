@@ -4,6 +4,8 @@ A hardware (RTL) implementation of the Maximum Subarray Sum problem (Kadane's Al
 
 The point of the project: Kadane's Algorithm is normally a 5-line `for` loop. This translates that same logic into RTL — a Control FSM, a memory unit, and a pipelined datapath — the way it would actually need to look to run on an FPGA or ASIC.
 
+Full write-up: [report/Kadane_Verilog_Report.pdf](report/Kadane_Verilog_Report.pdf)
+
 ## Architecture
 
 The system is split into three decoupled modules wired together by a structural top module, following standard ASIC/FPGA design practice of separating control from datapath:
